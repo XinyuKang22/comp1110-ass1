@@ -144,11 +144,11 @@ rules either).
 
 <a name="d"></a>
 **Distinction**
-* Task #5 *(in addition to all tasks required for Credit)*
+* Task #5 and #6 *(in addition to all tasks required for Credit)*
 
 <a name="hd"></a>
 **High Distinction**
-* Tasks #6 and #7 *(in addition to all tasks required for Distinction)*
+* Tasks #7 and #8 *(in addition to all tasks required for Distinction)*
 
 **IMPORTANT NOTE:**
 *It is very important that you understand that you are*
@@ -158,6 +158,6 @@ Distinction tasks unless you feel motivated and able to do so. Recall that the
 assignment is redeemable against the exam. The last parts of the assignment are
 significantly harder than the others, but together worth only one additional mark. I
 don't encourage you to spend too much time on this unless you are enjoying the
-challenge of solving these harder problems.  Solutions to tasks #6 and #7 may
+challenge of solving these harder problems.  Solutions to tasks #7 and #8 may
 involve ideas that I have* **not covered** *in class; you may
 need to go beyond the course material.*
