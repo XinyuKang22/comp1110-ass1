@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4af3dd10-fc6f-46dd-a586-d3645d93053a" name="Default" comment="working game and tests">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/T03_ValidPiecePlacementTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/comp1110/ass1/ValidPiecePlacementTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/comp1110/ass1/IQStars.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="96" column="94" selection-start-line="96" selection-start-column="94" selection-end-line="96" selection-end-column="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/comp1110/ass1/gui/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="156" column="32" selection-start-line="156" selection-start-column="32" selection-end-line="156" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LOOP_URI</find>
+      <find>toggleIn</find>
+      <find>makeSol</find>
+      <find>completionText</find>
+      <find>isPiece</find>
+      <find>fixOrientations</find>
+      <find>Properly</find>
+      <find>&gt;= 20</find>
+      <find>&gt; 20</find>
+      <find>20</find>
+      <find>rotates to</find>
+      <find>&quot;&quot;</find>
+      <find>difficulty</find>
+      <find>five</find>
+      <find>objective</find>
+      <find>solution</find>
+      <find>makeObj</find>
+      <find>fixOrie</find>
+      <find>AEABCADMCFBCGIB</find>
+      <find>fixOrien</find>
+      <find>getCo</find>
+      <find>'A','B'</find>
+      <find>getCovered</find>
+      <find>NUM_COLUMNS</find>
+      <find>fixOrient</find>
+      <find>establishSim</find>
+      <find>TODO</find>
+      <find>System.out</find>
+      <find>four</find>
+      <find>fixO</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/comp1110/ass1/IQPuzzlerPro.java" />
+        <option value="$PROJECT_DIR$/src/comp1110/ass1/gui/BoundsPlayground.java" />
+        <option value="$PROJECT_DIR$/src/comp1110/ass1/gui/Hex.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/tests/comp1110/ass1/FixOrientationsTest.java" />
+        <option value="$PROJECT_DIR$/tests/comp1110/ass1/GetCoveredTest.java" />
+        <option value="$PROJECT_DIR$/tests/comp1110/ass1/PieceFixedTest.java" />
+        <option value="$PROJECT_DIR$/src/comp1110/ass1/Hex.java" />
+        <option value="$PROJECT_DIR$/tests/comp1110/ass1/InterestingObjectiveTest.java" />
+        <option value="$PROJECT_DIR$/tests/comp1110/ass1/FindSolutionsTest.java" />
+        <option value="$PROJECT_DIR$/tests/comp1110/ass1/SimpleObjectiveTest.java" />
+        <option value="$PROJECT_DIR$/tests/comp1110/ass1/ValidPiecePlacementTest.java" />
+        <option value="$PROJECT_DIR$/src/comp1110/ass1/Piece.java" />
+        <option value="$PROJECT_DIR$/src/comp1110/ass1/gui/Game.java" />
+        <option value="$PROJECT_DIR$/src/comp1110/ass1/IQStars.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="76" />
+    <option name="y" value="397" />
+    <option name="width" value="1617" />
+    <option name="height" value="758" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="comp1110-ass1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comp1110-ass1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comp1110-ass1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comp1110-ass1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comp1110-ass1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comp1110-ass1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ass1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comp1110-ass1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comp1110-ass1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ass1" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comp1110-ass1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comp1110-ass1" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comp1110-ass1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comp1110-ass1" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="ass1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="comp1110.ass1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Game">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in comp1110-ass1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comp1110-ass1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Game" />
+      <item itemvalue="JUnit.T02 PieceFixedTest" />
+      <item itemvalue="JUnit.T03 ValidPiecePlacementTest" />
+      <item itemvalue="JUnit.T04 SimpleObjectiveTest" />
+      <item itemvalue="JUnit.T05 FixOrientationsTest" />
+      <item itemvalue="JUnit.T06 GetCoveredTest" />
+      <item itemvalue="JUnit.T07 FindSolutionsTest" />
+      <item itemvalue="JUnit.T08 InterestingObjectiveTest" />
+      <item itemvalue="JUnit.All in comp1110-ass1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in comp1110-ass1" />
+        <item itemvalue="JUnit.T03 ValidPiecePlacementTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4af3dd10-fc6f-46dd-a586-d3645d93053a" name="Default" comment="" />
+      <created>1531724692459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531724692459</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="T05_FixOrientationsTest - 2019.02.26 at 01h 55m 58s.xml">
+      <configuration name="T05 FixOrientationsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="T05_FixOrientationsTest - 2019.02.26 at 01h 56m 08s.xml">
+      <configuration name="T05 FixOrientationsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_comp1110-ass1 - 2019.02.26 at 01h 56m 14s.xml">
+      <configuration name="All in comp1110-ass1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="T04_SimpleObjectiveTest - 2019.02.26 at 01h 57m 24s.xml">
+      <configuration name="T04 SimpleObjectiveTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="T04_SimpleObjectiveTest - 2019.02.26 at 01h 57m 37s.xml">
+      <configuration name="T04 SimpleObjectiveTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_comp1110-ass1 - 2019.02.26 at 01h 57m 45s.xml">
+      <configuration name="All in comp1110-ass1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="T03_ValidPiecePlacementTest - 2019.02.26 at 01h 58m 08s.xml">
+      <configuration name="T03 ValidPiecePlacementTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="T03_ValidPiecePlacementTest - 2019.02.26 at 01h 58m 19s.xml">
+      <configuration name="T03 ValidPiecePlacementTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_comp1110-ass1 - 2019.02.26 at 01h 58m 26s.xml">
+      <configuration name="All in comp1110-ass1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="T02_PieceFixedTest - 2019.02.26 at 01h 58m 46s.xml">
+      <configuration name="T02 PieceFixedTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2675906" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32981783" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28379673" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39980826" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32981783" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Maven" order="7" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="working game and tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="working game and tests" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/comp1110/ass1/gui/assets/G.png" />
+    <entry file="file://$PROJECT_DIR$/README_2018s2.md" />
+    <entry file="file://$PROJECT_DIR$/README_old.md" />
+    <entry file="file://$PROJECT_DIR$/comp1110-ass1.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="636" column="35" selection-start-line="636" selection-start-column="35" selection-end-line="636" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PATH_TO_FX$/javafx.graphics.jar!/com/sun/javafx/geom/BaseBounds.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PATH_TO_FX$/javafx.graphics.jar!/javafx/scene/shape/Shape.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="235" column="22" selection-start-line="235" selection-start-column="22" selection-end-line="235" selection-end-column="22" />
+          <folding>
+            <element signature="e#8222#8223#0" expanded="true" />
+            <element signature="e#8269#8270#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PATH_TO_FX$/javafx.web.jar!/javafx/scene/web/WebView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PATH_TO_FX$/javafx.graphics.jar!/javafx/scene/Node.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="881" column="22" selection-start-line="881" selection-start-column="22" selection-end-line="881" selection-end-column="22" />
+          <folding>
+            <element signature="e#30342#30343#0" expanded="true" />
+            <element signature="e#30395#30396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PATH_TO_FX$/javafx.graphics.jar!/javafx/scene/Parent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="1313" column="19" selection-start-line="1313" selection-start-column="19" selection-end-line="1313" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PATH_TO_FX$/javafx.graphics.jar!/javafx/scene/shape/Polygon.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="39" />
+          <folding>
+            <element signature="e#1870#1871#0" expanded="true" />
+            <element signature="e#1904#1905#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PATH_TO_FX$/javafx.graphics.jar!/javafx/scene/shape/Rectangle.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comp1110/ass1/gui/BoundsPlayground.java" />
+    <entry file="file://$PROJECT_DIR$/assets/setup.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/IllegalArgumentException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/originality.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="291">
+            <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../archive/comp1110/2018s1/comp1110-ass1/src/comp1110/ass1/IQPuzzlerPro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1887" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="202" column="19" selection-start-line="202" selection-start-column="19" selection-end-line="202" selection-end-column="19" />
+          <folding>
+            <element signature="e#8396#8397#0" expanded="true" />
+            <element signature="e#8437#8438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="263" selection-start-line="263" selection-end-line="263" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comp1110/ass1/Hex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1099">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/comp1110/ass1/SimpleObjectiveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/comp1110/ass1/InterestingObjectiveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/comp1110/ass1/GetCoveredTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/comp1110/ass1/PieceFixedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="126" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/comp1110/ass1/ValidPiecePlacementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/comp1110/ass1/FindSolutionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="89" column="36" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comp1110/ass1/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comp1110/ass1/gui/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="156" column="32" selection-start-line="156" selection-start-column="32" selection-end-line="156" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/comp1110/ass1/FixOrientationsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comp1110/ass1/IQStars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="96" column="94" selection-start-line="96" selection-start-column="94" selection-end-line="96" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>comp1110-ass1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
