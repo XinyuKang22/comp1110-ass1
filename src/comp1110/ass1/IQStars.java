@@ -128,11 +128,11 @@ public class IQStars {
      * The code should choose within the arrays randomly, so for a given difficulty
      * level, any one of the sample values might be used.
      * <p>
-     * For example, if the difficulty level was 1/10, then the first array ('EASY')
+     * For example, if the difficulty level was 1/10, then the first array ('STARTER')
      * of values should be used.   A random number generator should then choose
      * an index between 0 and 2 and set the objective accordingly, so if the randomly
      * generated value was 1, then it would choose the objective
-     * "AGDDDIAAECCDFAAHGADGHBABJEBBKEAELDAD" and so on.
+     * "AVADHBEAAFGCGEC" and so on.
      *
      * @param difficulty A value between 0.0 (easiest) and 10.0 (hardest) specifying the desired level of difficulty.
      */
