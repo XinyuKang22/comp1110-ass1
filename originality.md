@@ -7,8 +7,8 @@ Your assignment **will not** be marked unless you have completed this statement.
 
 I declare that the work I have submitted for assignment one is entirely my own work, with the following documented exceptions:
 
-* The idea of <...> came from a discussion with <...>
+* The idea of <using boolean to return in task3: isValidPiecePlacement() > came from a discussion with < Zeyu Gong>
 
 * The code in class <...> uses an idea suggested by <...>
 
-Signed: Mary Jones (u2345678)
+Signed: Xinyu Kang (u6120911)
