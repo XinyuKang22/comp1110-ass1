@@ -1,6 +1,8 @@
 package comp1110.ass1;
 
+import java.lang.reflect.Array;
 import java.util.*;
+import java.util.Random;
 
 /**
  * This class represents a game of IQ Stars, which is based directly on the puzzle
@@ -94,7 +96,12 @@ public class IQStars {
      * otherwise return false
      */
     public boolean isPieceFixed(char piece) {
-        // FIXME Task 2:  Replace the code below with code that correctly checks the objective
+        int length = objective.length();
+        for (int i = 0; i < length; i = i + 3) {
+            if (piece == objective.charAt(i)) {
+                return true;
+            }
+        }
         return false;
     }
 
@@ -108,8 +115,35 @@ public class IQStars {
      * @return true if the given piece placement string is valid
      */
     public static boolean isValidPiecePlacement(String piecePlacementString) {
-        // FIXME Task 3: Replace the code below with code that correctly checks whether the piece placement is valid
-        return false;
+        char[] pieceID = {'A','B','C','D','E','F','G'};
+        char[] location = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
+        char[] orientation = {'A','B','C','D','E','F'};
+
+        boolean pieceIDValid=false;
+        boolean locationValid=false;
+        boolean orientationValid=false;
+
+        char a = piecePlacementString.charAt(0);
+        for (char i : pieceID){
+            if (i == a){
+                pieceIDValid = true;break;
+            }
+        }
+
+        char b = piecePlacementString.charAt(1);
+        for (char i : location){
+            if (i == b){
+                locationValid = true;break;
+            }
+        }
+
+        char c = piecePlacementString.charAt(2);
+        for (char i :orientation){
+            if (i == c){
+                orientationValid = true;break;
+            }
+        }
+        return pieceIDValid && locationValid && orientationValid;
     }
 
     /**
@@ -137,8 +171,29 @@ public class IQStars {
      * @param difficulty A value between 0.0 (easiest) and 10.0 (hardest) specifying the desired level of difficulty.
      */
     public static String establishSimpleObjective(double difficulty) {
-        // FIXME Task 4:  Replace the code below with code that draws from SAMPLE_OBJECTIVES
-        return TRIVIAL_OBJECTIVE;
+        String[] starter = SAMPLE_OBJECTIVES[0];
+        String[] junior = SAMPLE_OBJECTIVES[1];
+        String[] expert = SAMPLE_OBJECTIVES[2];
+        String[] master = SAMPLE_OBJECTIVES[3];
+
+        if (difficulty<2.5){
+            Random random = new Random();
+            int index = random.nextInt(starter.length);
+            return starter[index];
+        }else if (difficulty>=2.5 && difficulty<5.0){
+            Random random = new Random();
+            int index = random.nextInt(junior.length);
+            return junior[index];
+        }else if (difficulty>=5.0 && difficulty<7.5){
+            Random random = new Random();
+            int index = random.nextInt(expert.length);
+            return expert[index];
+        }else {
+            Random random = new Random();
+            int index = random.nextInt(master.length);
+            return master[index];
+        }
+
     }
 
     /**
@@ -198,8 +253,65 @@ public class IQStars {
      * @return the input string with corrected orientations for pieces 'A' through 'E'
      */
     public static String fixOrientations(String in) {
-        // FIXME Task 5: implement code that correctly returns a canonical string according to the comment above.
-        return null;
+        String location = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        String toReturn = "";
+        char[] givenList = in.toCharArray();
+        for (int i = 0; i < givenList.length; i = i+3){
+            if (givenList[i] == 'A'){
+                if (givenList[i+2]=='D'){
+                    int oldHexLocation = location.indexOf(givenList[i+1]);
+                    char newHex = location.charAt(oldHexLocation-2);
+                    char[] newPieceCharlist = {'A',newHex,'A'};
+                    String newPiece = String.valueOf(newPieceCharlist);
+                    toReturn = toReturn + newPiece;
+                }else if(givenList[i+2]=='E'){
+                    int oldHexLocation = location.indexOf(givenList[i+1]);
+                    char newHex = location.charAt(oldHexLocation-14);
+                    char[] newPieceCharlist = {'A',newHex,'B'};
+                    String newPiece = String.valueOf(newPieceCharlist);
+                    toReturn = toReturn + newPiece;
+                }else if(givenList[i+2]=='F'){
+                    int oldHexLocation = location.indexOf(givenList[i+1]);
+                    char newHex = location.charAt(oldHexLocation-12);
+                    char[] newPieceCharlist = {'A',newHex,'C'};
+                    String newPiece = String.valueOf(newPieceCharlist);
+                    toReturn = toReturn + newPiece;
+                }else {
+                    char[] newPieceCharlist = {'A',givenList[i+1],givenList[i+2]};
+                    String newPiece = String.valueOf(newPieceCharlist);
+                    toReturn = toReturn + newPiece;
+                }
+            }else if (givenList[i] == 'D'){
+                if (givenList[i+2]=='D'){
+                    int oldHexLocation = location.indexOf(givenList[i+1]);
+                    char newHex = location.charAt(oldHexLocation-8);
+                    char[] newPieceCharlist = {'D',newHex,'A'};
+                    String newPiece = String.valueOf(newPieceCharlist);
+                    toReturn = toReturn + newPiece;
+                }else if(givenList[i+2]=='E'){
+                    int oldHexLocation = location.indexOf(givenList[i+1]);
+                    char newHex = location.charAt(oldHexLocation-13);
+                    char[] newPieceCharlist = {'D',newHex,'B'};
+                    String newPiece = String.valueOf(newPieceCharlist);
+                    toReturn = toReturn + newPiece;
+                }else if(givenList[i+2]=='F'){
+                    int oldHexLocation = location.indexOf(givenList[i+1]);
+                    char newHex = location.charAt(oldHexLocation-5);
+                    char[] newPieceCharlist = {'D',newHex,'C'};
+                    String newPiece = String.valueOf(newPieceCharlist);
+                    toReturn = toReturn + newPiece;
+                }else {
+                    char[] newPieceCharlist = {'D',givenList[i+1],givenList[i+2]};
+                    String newPiece = String.valueOf(newPieceCharlist);
+                    toReturn = toReturn + newPiece;
+                }
+            }else {
+                char[] newPieceCharlist = {givenList[i],givenList[i+1],givenList[i+2]};
+                String newPiece = String.valueOf(newPieceCharlist);
+                toReturn = toReturn + newPiece;
+            }
+        }
+        return toReturn;
     }
 
     /**

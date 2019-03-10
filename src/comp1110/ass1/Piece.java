@@ -64,6 +64,410 @@ public enum Piece {
      */
     char[] getCovered(char hex, char orientation) {
         // FIXME Task 6: implement code that correctly creates an array of chars specifying the indices of the covered spaces
-        return new char[]{};
-    }
+        char piece = getId();
+
+        char[] location = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
+        int[] rows = {1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4};
+        int HexNum = 0;
+        for (int i = 0; i < 26; i++) {
+            if (hex == location[i]) {
+                HexNum = i;
+                break;
+            }
+        }
+        int RowNum = rows[HexNum];
+
+        int[] indices = {0, 0, 0, 0};
+        int[] rowList = {0, 0, 0, 0};
+        if (piece == 'A') {
+            if (orientation == 'A') {
+                indices[0] = HexNum;
+                indices[1] = HexNum + 1;
+                indices[2] = HexNum + 2;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum;
+            } else if (orientation == 'B') {
+                indices[0] = HexNum;
+                indices[1] = HexNum + 7;
+                indices[2] = HexNum + 14;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum + 1;
+                rowList[2] = RowNum + 2;
+            } else if (orientation == 'C') {
+                indices[0] = HexNum;
+                indices[1] = HexNum + 6;
+                indices[2] = HexNum + 12;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum + 1;
+                rowList[2] = RowNum + 2;
+            } else if (orientation == 'D') {
+                indices[0] = HexNum;
+                indices[1] = HexNum - 1;
+                indices[2] = HexNum - 2;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum;
+            } else if (orientation == 'E') {
+                indices[0] = HexNum;
+                indices[1] = HexNum - 7;
+                indices[2] = HexNum - 14;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum - 1;
+                rowList[2] = RowNum - 2;
+            } else if (orientation == 'F') {
+                indices[0] = HexNum;
+                indices[1] = HexNum - 6;
+                indices[2] = HexNum - 12;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum - 1;
+                rowList[2] = RowNum - 2;
+            }
+        } else if (piece == 'B') {
+            if (orientation == 'A') {
+                indices[0] = HexNum;
+                indices[1] = HexNum + 1;
+                indices[2] = HexNum + 8;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum + 1;
+            } else if (orientation == 'B') {
+                indices[0] = HexNum;
+                indices[1] = HexNum + 7;
+                indices[2] = HexNum + 13;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum + 1;
+                rowList[2] = RowNum + 2;
+            } else if (orientation == 'C') {
+                indices[0] = HexNum;
+                indices[1] = HexNum + 5;
+                indices[2] = HexNum + 6;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum + 1;
+                rowList[2] = RowNum + 1;
+            } else if (orientation == 'D') {
+                indices[0] = HexNum;
+                indices[1] = HexNum - 1;
+                indices[2] = HexNum - 8;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum - 1;
+            } else if (orientation == 'E') {
+                indices[0] = HexNum;
+                indices[1] = HexNum - 7;
+                indices[2] = HexNum - 13;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum - 1;
+                rowList[2] = RowNum - 2;
+            } else if (orientation == 'F') {
+                indices[0] = HexNum;
+                indices[1] = HexNum - 6;
+                indices[2] = HexNum - 5;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum - 1;
+                rowList[2] = RowNum - 1;
+            }
+        } else if (piece == 'C') {
+            if (orientation == 'A') {
+                indices[0] = HexNum;
+                indices[1] = HexNum + 1;
+                indices[2] = HexNum + 8;
+                indices[3] = HexNum + 14;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum + 1;
+                rowList[3] = RowNum + 2;
+            } else if (orientation == 'B') {
+                indices[0] = HexNum;
+                indices[1] = HexNum + 7;
+                indices[2] = HexNum + 12;
+                indices[3] = HexNum + 13;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum + 1;
+                rowList[2] = RowNum + 2;
+                rowList[3] = RowNum + 2;
+            } else if (orientation == 'C') {
+                indices[0] = HexNum;
+                indices[1] = HexNum - 2;
+                indices[2] = HexNum + 5;
+                indices[3] = HexNum + 6;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum + 1;
+                rowList[3] = RowNum + 1;
+            } else if (orientation == 'D') {
+                indices[0] = HexNum;
+                indices[1] = HexNum - 1;
+                indices[2] = HexNum - 8;
+                indices[3] = HexNum - 14;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum - 1;
+                rowList[3] = RowNum - 2;
+            } else if (orientation == 'E') {
+                indices[0] = HexNum;
+                indices[1] = HexNum - 7;
+                indices[2] = HexNum - 13;
+                indices[3] = HexNum - 12;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum - 1;
+                rowList[2] = RowNum - 2;
+                rowList[3] = RowNum - 2;
+            } else if (orientation == 'F') {
+                indices[0] = HexNum;
+                indices[1] = HexNum + 2;
+                indices[2] = HexNum - 6;
+                indices[3] = HexNum - 5;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum - 1;
+                rowList[3] = RowNum - 1;
+            }
+        } else if (piece == 'D') {
+            if (orientation == 'A') {
+                indices[0] = HexNum;
+                indices[1] = HexNum + 1;
+                indices[2] = HexNum + 7;
+                indices[3] = HexNum + 8;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum + 1;
+                rowList[3] = RowNum + 1;
+            } else if (orientation == 'B') {
+                indices[0] = HexNum;
+                indices[1] = HexNum + 6;
+                indices[2] = HexNum + 7;
+                indices[3] = HexNum + 13;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum + 1;
+                rowList[2] = RowNum + 1;
+                rowList[3] = RowNum + 2;
+            } else if (orientation == 'C') {
+                indices[0] = HexNum;
+                indices[1] = HexNum - 1;
+                indices[2] = HexNum + 5;
+                indices[3] = HexNum + 6;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum + 1;
+                rowList[3] = RowNum + 1;
+            } else if (orientation == 'D') {
+                indices[0] = HexNum;
+                indices[1] = HexNum - 1;
+                indices[2] = HexNum - 7;
+                indices[3] = HexNum - 8;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum - 1;
+                rowList[3] = RowNum - 1;
+            } else if (orientation == 'E') {
+                indices[0] = HexNum;
+                indices[1] = HexNum - 7;
+                indices[2] = HexNum - 6;
+                indices[3] = HexNum - 13;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum - 1;
+                rowList[2] = RowNum - 1;
+                rowList[3] = RowNum - 2;
+            } else if (orientation == 'F') {
+                indices[0] = HexNum;
+                indices[1] = HexNum + 1;
+                indices[2] = HexNum - 6;
+                indices[3] = HexNum - 5;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum - 1;
+                rowList[3] = RowNum - 1;
+            }
+        } else if (piece == 'E') {
+            if (orientation == 'A') {
+                indices[0] = HexNum;
+                indices[1] = HexNum + 1;
+                indices[2] = HexNum + 8;
+                indices[3] = HexNum + 15;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum + 1;
+                rowList[3] = RowNum + 2;
+            } else if (orientation == 'B') {
+                indices[0] = HexNum;
+                indices[1] = HexNum + 7;
+                indices[2] = HexNum + 13;
+                indices[3] = HexNum + 19;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum + 1;
+                rowList[2] = RowNum + 2;
+                rowList[3] = RowNum + 3;
+            } else if (orientation == 'C') {
+                indices[0] = HexNum;
+                indices[1] = HexNum + 6;
+                indices[2] = HexNum + 5;
+                indices[3] = HexNum + 4;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum + 1;
+                rowList[2] = RowNum + 1;
+                rowList[3] = RowNum + 1;
+            } else if (orientation == 'D') {
+                indices[0] = HexNum;
+                indices[1] = HexNum - 1;
+                indices[2] = HexNum - 8;
+                indices[3] = HexNum -15;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum - 1;
+                rowList[3] = RowNum - 2;
+            } else if (orientation == 'E') {
+                indices[0] = HexNum;
+                indices[1] = HexNum - 7;
+                indices[2] = HexNum - 13;
+                indices[3] = HexNum - 19;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum - 1;
+                rowList[2] = RowNum - 2;
+                rowList[3] = RowNum - 3;
+            } else if (orientation == 'F') {
+                indices[0] = HexNum;
+                indices[1] = HexNum - 6;
+                indices[2] = HexNum - 5;
+                indices[3] = HexNum - 4;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum - 1;
+                rowList[2] = RowNum - 1;
+                rowList[3] = RowNum - 1;
+            }
+        } else if (piece == 'F') {
+            if (orientation == 'A') {
+                indices[0] = HexNum;
+                indices[1] = HexNum + 1;
+                indices[2] = HexNum + 2;
+                indices[3] = HexNum + 7;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum;
+                rowList[3] = RowNum + 1;
+            } else if (orientation == 'B') {
+                indices[0] = HexNum;
+                indices[1] = HexNum + 6;
+                indices[2] = HexNum + 7;
+                indices[3] = HexNum + 14;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum + 1;
+                rowList[2] = RowNum + 1;
+                rowList[3] = RowNum + 2;
+            } else if (orientation == 'C') {
+                indices[0] = HexNum;
+                indices[1] = HexNum - 1;
+                indices[2] = HexNum + 6;
+                indices[3] = HexNum + 12;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum + 1;
+                rowList[3] = RowNum + 2;
+            } else if (orientation == 'D') {
+                indices[0] = HexNum;
+                indices[1] = HexNum - 1;
+                indices[2] = HexNum - 2;
+                indices[3] = HexNum - 7;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum;
+                rowList[3] = RowNum - 1;
+            } else if (orientation == 'E') {
+                indices[0] = HexNum;
+                indices[1] = HexNum - 7;
+                indices[2] = HexNum - 6;
+                indices[3] = HexNum - 14;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum - 1;
+                rowList[2] = RowNum - 1;
+                rowList[3] = RowNum - 2;
+            } else if (orientation == 'F') {
+                indices[0] = HexNum;
+                indices[1] = HexNum + 1;
+                indices[2] = HexNum - 6;
+                indices[3] = HexNum - 12;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum - 1;
+                rowList[3] = RowNum - 2;
+            }
+        } else if (piece == 'G') {
+            if (orientation == 'A') {
+                indices[0] = HexNum;
+                indices[1] = HexNum + 1;
+                indices[2] = HexNum + 7;
+                indices[3] = HexNum + 14;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum + 1;
+                rowList[3] = RowNum + 2;
+            } else if (orientation == 'B') {
+                indices[0] = HexNum;
+                indices[1] = HexNum + 6;
+                indices[2] = HexNum + 7;
+                indices[3] = HexNum + 12;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum + 1;
+                rowList[2] = RowNum + 1;
+                rowList[3] = RowNum + 2;
+            } else if (orientation == 'C') {
+                indices[0] = HexNum;
+                indices[1] = HexNum - 1;
+                indices[2] = HexNum - 2;
+                indices[3] = HexNum + 6;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum;
+                rowList[3] = RowNum + 1;
+            } else if (orientation == 'D') {
+                indices[0] = HexNum;
+                indices[1] = HexNum - 1;
+                indices[2] = HexNum - 7;
+                indices[3] = HexNum - 14;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum - 1;
+                rowList[3] = RowNum - 2;
+            } else if (orientation == 'E') {
+                indices[0] = HexNum;
+                indices[1] = HexNum - 7;
+                indices[2] = HexNum - 6;
+                indices[3] = HexNum - 12;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum - 1;
+                rowList[2] = RowNum - 1;
+                rowList[3] = RowNum - 2;
+            } else if (orientation == 'F') {
+                indices[0] = HexNum;
+                indices[1] = HexNum + 1;
+                indices[2] = HexNum + 2;
+                indices[3] = HexNum - 6;
+                rowList[0] = RowNum;
+                rowList[1] = RowNum;
+                rowList[2] = RowNum;
+                rowList[3] = RowNum - 1;
+            }
+        }
+        char[] toReturn;
+        toReturn = new char[indices.length];
+        for (int x = 0; x < 4; x++) {
+            if (indices[x] >= 0 && indices[x] <= 25) {
+                if (rows[indices[x]] == rowList[x]) {
+                    toReturn[x] = location[indices[x]];
+                } else {
+                    toReturn[x] = '!';
+                }
+            } else {
+                toReturn[x] = '!';
+            }
+        }
+            if (piece == 'A' || piece == 'B') {
+                char[] toReturnSpecial = {toReturn[0], toReturn[1], toReturn[2]};
+                return toReturnSpecial;
+            } else {
+                return toReturn;
+            }
+            //return new char[]{};
+        }
+
 }
