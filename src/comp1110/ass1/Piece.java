@@ -63,7 +63,6 @@ public enum Piece {
      * @return A set of indices corresponding to the board positions that would be covered by this piece
      */
     char[] getCovered(char hex, char orientation) {
-        // FIXME Task 6: implement code that correctly creates an array of chars specifying the indices of the covered spaces
         char piece = getId();
 
         char[] location = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
@@ -467,7 +466,6 @@ public enum Piece {
             } else {
                 return toReturn;
             }
-            //return new char[]{};
         }
 
 }

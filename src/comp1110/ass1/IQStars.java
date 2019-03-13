@@ -114,6 +114,7 @@ public class IQStars {
      *
      * @return true if the given piece placement string is valid
      */
+
     public static boolean isValidPiecePlacement(String piecePlacementString) {
         char[] pieceID = {'A','B','C','D','E','F','G'};
         char[] location = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
