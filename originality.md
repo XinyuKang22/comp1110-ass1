@@ -9,6 +9,5 @@ I declare that the work I have submitted for assignment one is entirely my own w
 
 * The idea of <using boolean to return in task3: isValidPiecePlacement() > came from a discussion with < Zeyu Gong>
 
-* The code in class <...> uses an idea suggested by <...>
 
 Signed: Xinyu Kang (u6120911)
